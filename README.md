@@ -14,33 +14,13 @@ EdgeVision CNN is a **lightweight convolutional neural network** designed specif
 
 ### 🌟 Key Features
 
-- 🏗️ **Custom CNN Architecture** with progressive filter reduction (7×7→5×5→3×3)
+- 🏗️ **Custom CNN Architecture** with progressive filter reduction.
 - 📱 **Mobile-Optimized** targeting <5MB model size for mobile deployment
 - ⚡ **Real-time Inference** optimized for response time and battery efficiency
 - 🔬 **Research-Grade Evaluation** comparing against state-of-the-art models
 - 🌐 **Google Colab Integration** for cloud-based GPU training
 
-## 🚀 Architecture Highlights
 
-EdgeVision CNN implements a novel progressive feature extraction approach:
-
-```
-Input (224×224×3) → Data Augmentation
-  ↓
-Conv2D(32, 7×7, stride=2) → BatchNorm → MaxPool
-  ↓
-Conv2D(64, 5×5) → BatchNorm → MaxPool
-  ↓
-Conv2D(128, 3×3) → BatchNorm → MaxPool
-  ↓
-Conv2D(256, 3×3) → BatchNorm → MaxPool
-  ↓
-Conv2D(512, 3×3) → BatchNorm → GlobalAvgPool
-  ↓
-Dense(1024) → Dropout(0.5) → Dense(512) → Dropout(0.3)
-  ↓
-Dense(num_classes, softmax)
-```
 
 **Total Parameters:** ~2.8M (4-8x smaller than traditional models)
 
@@ -102,7 +82,7 @@ Matplotlib
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/EdgeVision-CNN.git
+git clone https://github.com/YeshwanthDandu180903/EdgeVision-CNN.git
 cd EdgeVision-CNN
 
 # Install dependencies
@@ -258,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **Email:** [your-email@example.com]
+- **Email:** [yeshwanthdandu2003@gmail.com]
 - **GitHub Issues:** [Create an issue](https://github.com/your-username/EdgeVision-CNN/issues)
 - **Discussions:** [Join the discussion](https://github.com/your-username/EdgeVision-CNN/discussions)
 
