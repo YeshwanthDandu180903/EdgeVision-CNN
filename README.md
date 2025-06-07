@@ -149,7 +149,7 @@ EdgeVision-CNN/
 
 This project is being developed as a **collaborative learning initiative** by a team of developers exploring deep learning applications in agriculture.
 
-**Team Members:** [Add team member names]
+**Team Members:** [Me & B.Sagun Varma]
 
 **Contributions Welcome:** We're actively seeking collaborators interested in:
 - Plant disease detection
